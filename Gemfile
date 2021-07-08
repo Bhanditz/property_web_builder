@@ -43,12 +43,12 @@ group :development, :test do
   end
   gem 'rubocop', require: false
   gem 'pry-byebug'
-  gem 'capybara'
+  gem 'capybara', '>= 2.10.1'
   gem 'database_cleaner'
   # , '~> 1.3'
   gem 'rails-controller-testing'
   gem 'factory_girl_rails'
-  gem 'poltergeist'
+  gem 'poltergeist', '>= 1.12.0'
   # , '~> 1.10'
   # gem 'rspec-activemodel-mocks', '~> 1.0'
   gem 'rspec-rails'
