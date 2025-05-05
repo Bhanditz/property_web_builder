@@ -51,7 +51,7 @@ group :development, :test do
   gem 'poltergeist'
   # , '~> 1.10'
   # gem 'rspec-activemodel-mocks', '~> 1.0'
-  gem 'rspec-rails'
+  gem 'rspec-rails', '>= 8.0.0'
   gem 'shoulda-matchers'
   gem 'font-awesome-rails'
   gem 'guard'
